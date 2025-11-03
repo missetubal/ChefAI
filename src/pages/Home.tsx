@@ -1,5 +1,5 @@
 import { Header } from '@/components/custom/header';
-import { Hero, HeroContent } from '@/features/Home';
+import { Hero, HeroContent, Premium } from '@/features/Home';
 
 export const Home = () => {
   return (
@@ -7,6 +7,7 @@ export const Home = () => {
       <Header />
       <Hero />
       <HeroContent />
+      <Premium />
     </div>
   );
 };

@@ -1,14 +1,7 @@
 import { useState, useEffect } from 'react';
-import { Button } from '@/components/ui/button';
-import { ChefHat, User, LogOut, Heart, ShoppingCart } from 'lucide-react';
+import { ChefHat } from 'lucide-react';
 import { useNavigate, useLocation } from 'react-router-dom';
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuSeparator,
-  DropdownMenuTrigger,
-} from '@/components/ui/dropdown-menu';
+
 import { Menu } from './menu';
 
 export const Header = () => {
